@@ -3,6 +3,10 @@
 dist: xenial
 sudo: false
 language: erlang
+arch:
+  - amd64
+  - ppc64le
+
 notifications:
   email:
     recipients:
